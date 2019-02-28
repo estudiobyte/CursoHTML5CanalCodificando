@@ -1,0 +1,68 @@
+/* 
+    Estilo do site de teste do canal codificando
+    Feito por: Amauri
+    Em: 17/02/2019
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu{
+    border: solid 1px black;
+}
+
+#menu li{
+    display:inline;
+}
+
+#menu-esquerda ul{
+    padding: 10px;
+}
+
+#menu-esquerda li{
+    list-style-type: none;
+}
+
+#menu-esquerda{
+    float: left; width: 20%;
+    background-color: #dddddd;
+    margin-right: 10px;
+    color: red;
+    cursor: context-menu;
+}   
+
+#conteudo{
+    min-height: 400px;
+}
+
+#rodape{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    color: #07085c;
+    font-size: 32px;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.direita{
+    text-align: right;
+}
+
+.div-imagem{
+    width: 100%;
+    text-align: center;
+}
+
+.imagem{
+    max-width: 200px;
+}

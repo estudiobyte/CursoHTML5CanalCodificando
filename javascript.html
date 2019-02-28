@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula de Javascript do Canal Codificando</title>
+</head>
+<body>
+    
+    <form action="" method="post">
+
+        <h1>Formulário de nome</h1>
+        <input type="text" name="nome" id="nome" placeholder="Insira o seu nome" />
+
+        <input type="button" onclick="validaNome( document.getElementById('nome').value );" value="Validar">
+
+        <script>
+            var ComprimentoNome = 5;
+
+            function validaNome (nome){
+
+                if( nome.length < ComprimentoNome ){
+                    alert('Nome inválido');
+                    document.getElementById('nome').style.borderColor = '#FF0000';
+                }else{
+                    alert( 'O nome é: ' + nome );
+                    document.getElementById('nome').style.borderColor = 'green';
+
+                }
+
+            }
+        </script>
+
+    </form>
+
+</body>
+</html>
