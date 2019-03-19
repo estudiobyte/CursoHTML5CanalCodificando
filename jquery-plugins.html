@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula de jQuery do Canal Codificando</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script src="js/jquery.mask.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.slider').bxSlider();
+    });
+    </script>
+
+    <style>
+        .bx-wrapper{
+            max-width: 600px !important;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Aula de Plugins Jquery</h1>
+
+    <div class="slider">
+        <div><img src="https://picsum.photos/800/300" alt=""></div>
+        <div><img src="https://picsum.photos/800/300" alt=""></div>
+    </div>
+
+    <input type="text" class="data" name="data" />    
+
+    <script>
+        $(document).ready(function(){
+            $('.data').mask('00/00/0000');
+        });
+    </script>
+
+</body>
+</html>
